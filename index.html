@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
+    <div class="topshade"></div>
+
     <div class="container">
       <div class="navbar navbar-default">
         <div class="navbar-header">
@@ -31,56 +33,148 @@
           </ul>
         </div>
       </div>
+
+
       <div class="row">
         <div class="col-sm-4 hidden-xs">
-          <img class="img-responsive" src="img/marquee.png" alt="" />
-          <h2>About the Bagdad</h2>
+          <div class="marquee">
+            <img class="img-responsive" src="img/marquee.png" alt="" />
+          </div>
+          <h3>About the Bagdad</h3>
           <p>Come experience our new 50% larger screen, 20,000-watt surround sound, state-of-the-art digital projector and new luxurious rocker seating at Portland’s Bagdad Theater!</p>
           <a href="http://www.mcmenamins.com/219-bagdad-theater-pub-home">The Bagdad Theater and Pub</a>
-          <img class="img-responsive" src="img/map.png" alt="" />
+          <h3>Getting to the Bagdad</h3>
+            <img class="img-responsive" src="img/map.png" alt="" />
           <p>The Bagdad Theater is located in the heart of the Hawthorne District. Look for the large marquee sign!</p>
         </div>
-        <div class="col-sm-8">
-          <div class="row">
-            <div class="col-sm-6">
-              <h1>Movie Showtimes</h1>
+        <div class="col-sm-8" >
+          <div class="row" id="today">
+            <div class="col-sm-6" >
+              <h2>Movie Showtimes</h2>
               <input type="date" name="date" value="">
-
+              <p>Minors are allowed only with a parent or guardian at any show.</p>
+              <p><em>Choose date above and click showtimes on the right for online ticket purchases.</em></p>
             </div>
             <div class="col-sm-6">
+              <h3>Hail, Caesar! (PG-13)</h3>
+              <p>Running time 1:40</p>
+              <div class="panel panel-default">
+                <div class="panel-body">
+                  <p>Buy Tickets</p>
+                  <div class="row">
+                    <div class="col-sm-6 tix" >
+                      <button type="button" class="btn btn-md">12:30pm</button>
+                      <button type="button" class="btn btn-md">7:00pm</button>
+                    </div>
+                    <div class="col-sm-6 tix" >
+                      <button type="button" class="btn btn-md">3:30pm</button>
+                      <button type="button" class="btn btn-md">10:15pm</button>
 
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <p>Please be patient while we process your order.</p>
             </div>
           </div>
+          <h2>Now Playing</h2>
           <div class="row">
-            <div class="col-sm-8">
-              <img src="" alt="" />
+            <div class="col-xs-4">
+              <img class="img-responsive" src="img/movie1.jpg" alt="" />
             </div>
-            <div class="col-sm-4">
-              <h3></h3>
-              <button type="button" name="button"></button>
+            <div class="movie-links col-xs-8">
+              <h3>Hail, Caesar! (PG-13)</h3>
+              <button type="button" class="btn btn-md" name="button">View Trailer</button>
               <a href="http://www.hailcaesarmovie.com/">www.hailcaesarmovie.com</a>
               <a href="http://www.imdb.com/title/tt0475290/">www.imdb.com/title/tt0475290</a>
               <p>A Hollywood fixer in the 1950s works to keep the studio's stars in line.</p>
             </div>
           </div>
-
-
+          <hr>
+          <h2>Coming Soon</h2>
+          <div class="row">
+            <div class="col-xs-4">
+              <img class="img-responsive" src="img/movie2.png" alt="" />
+            </div>
+            <div class="movie-links col-xs-8">
+              <h3>10 Cloverfield Lane</h3>
+              <p>Starting on March 11th</p>
+              <button type="button" class="btn btn-md" name="button">View Trailer</button>
+              <a href="http://www.10cloverfieldlane.com//">www.10cloverfieldlane.com/</a>
+              <a href="http://www.imdb.com/title/tt1179933/">www.imdb.com/title/tt1179933/</a>
+              <p>Waking up from a car accident, a young woman finds herself in the basement of a man who says he's saved her life from a chemical attack that has left the outside uninhabitable.p>
+            </div>
+          </div>
+          <br>
+          <div class="row">
+            <div class="col-xs-4">
+              <img class="img-responsive" src="img/movie3.jpg" alt="" />
+            </div>
+            <div class="movie-links col-xs-8">
+              <h3>Batman v Superman:<br>
+                  Dawn of Justice (PG-13)</h3>
+              <p>Starting on March 25th</p>
+              <button type="button" class="btn btn-md" name="button">View Trailer</button>
+              <a href="http://batmanvsuperman.dccomics.com//">batmanvsuperman.dccomics.com/</a>
+              <a href="http://www.imdb.com/title/tt2975590/">www.imdb.com/title/tt2975590/</a>
+              <p>Fearing the actions of Superman are left unchecked, Batman takes on Superman, while the world wrestles with what kind of a hero it really needs.</p>
+            </div>
+          </div>
+          <hr>
+          <div class="row">
+            <div class="col-sm-12">
+              <h2>Prices</h2>
+              <p>$9 per ticket – Adults 5 p.m. and later</p>
+              <p>$7.50 per ticket – Adults before 5 p.m.</p>
+              <p>$6 per ticket – children 12 years old and under</p>
+              <ul>
+                <li>Minors are allowed only with a parent or guardian.</li>
+                <li>$1 online purchase fee per ticket</li>
+              </ul>
+            </div>
+          </div>
         </div>
+        <div class="footer">
+          <div class="row">
+            <div class="col-sm-3">
+              <p>McMenamins Bagdad Theater</p>
+              <ul>
+                <li>3702 SE Hawthorne Blvd </li>
+                <li>Portland, OR 97214 </li>
+                <li>(503) 467-7521</li>
+              </ul>
+            </div>
+            <div class="col-sm-3">
+              <p>McMenamins Bagdad</p>
+              <ul>
+                <li>About the Bagdad</li>
+                <li>Bagdad Pub</li>
+                <li>Backstage Bar</li>
+                <li>McMenamins Home</li>
+              </ul>
+            </div>
+            <div class="col-sm-3">
+              <p></p>
+              <ul>
+                <li>Edgefield Power Station Theater</li>
+                <li>Grand Lodge Theater</li>
+                <li>Kennedy School Theater</li>
+                <li>Mission Theater</li>
+                <li>Old St. Francis Theater</li>
+                <li>Olympic Club Theater</li>
+                <li>St. Johns Theater</li>
+                <li>View all McMenamins Theaters</li>
+              </ul>
+            </div>
+          </div>
+          <hr>
+          <div class="footer-bottom">
+            <p>&copy; 2014 Schuyler &amp; Paul. All rights reserved.</p>
 
-
+          </div>
+        </div>
       </div>
-
-
-
-
-
-
-      <div class="row">
-
-      </div>
-
     </div>
-
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->

@@ -1,0 +1,72 @@
+body {
+  background: url('../img/bg.jpg');
+  background-size: cover;
+  max-width: 2400px;
+}
+
+.topshade {
+  height: 97px;
+  background-color: rgba(0,0,0,0.55);
+}
+
+.navbar-default {
+  background-color: transparent;
+  margin-top: -97px;
+  border: none;
+}
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+h1, h2, h3, p {
+  color: #fff;
+}
+
+.panel-default {
+  border: 1px solid rgba(255,255,255,0.25);
+  background-color: rgba(200,200,200,0.25);
+  border-radius: 0;
+}
+
+.marquee {
+  background-color: rgba(0,0,0,0.25);
+}
+
+.marquee img {
+  position: relative;
+  top: -50px;
+}
+
+#today {
+  border: 1px solid rgba(255,255,255,0.25);
+  background-color: rgba(0,0,0,0.25);
+}
+
+.tix {
+  padding-right: 0;
+}
+
+.panel-body p {
+  text-align: center;
+}
+
+.btn {
+  margin: 0  20% 15px 20% ;
+  text-align: center;
+  background-color: #da7e25;
+  border-radius: 0;
+}
+
+.movie-links a {
+  display: block;
+}
+
+.navbar-default {
+  min-height: 100px;
+}
+
+.footer ul li {
+  list-style: none;
+}
